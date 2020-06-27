@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+    font-family: consolas;
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: green;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a:hover{
+    
+    color: rgb(20, 70, 20);
+    background: green;
+    box-shadow: 0 0 10px green, 0 0 40px green, 0 0 70px green ;
+    transition-delay: 0.5s;
+}
